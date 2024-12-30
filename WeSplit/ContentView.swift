@@ -33,6 +33,7 @@ struct contentView: View {
                             Text("\($0) people")
                         }
                     }
+                    
 
                     Picker("Tip percentage", selection: $tipPercentage) {
                         ForEach(tipPercentages, id: \.self) {
